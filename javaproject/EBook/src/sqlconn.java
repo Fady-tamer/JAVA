@@ -1,4 +1,4 @@
-package EBook;
+package javaproject.EBook.src;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

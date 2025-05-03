@@ -1,4 +1,4 @@
-package EBook;
+package javaproject.EBook.src;
 
 import java.awt.Button;
 import java.awt.Color;
