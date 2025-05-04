@@ -10,9 +10,9 @@ public class sqlconn {
 
     public static void connectToSQL() {
         try {
-            String url = "";
-            String user = "";
-            String password = "";
+            String url = "Your SQL URL here"; // e.g., "jdbc:mysql://localhost:3306/yourdatabase"
+            String user = "Your SQL username here"; // e.g., "root"
+            String password = "Your SQL password here"; // e.g., "password"
             conn = DriverManager.getConnection(url, user, password);
             System.out.println("Connected");
         } catch (SQLException e) {
