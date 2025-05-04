@@ -14,7 +14,7 @@ public class App extends JFrame {
 
         ////////////////////////////////////////////////////////////////////////////
 
-        // Set the frame size
+        // Set the frame
         frame.setLayout(null);
         frame.setResizable(false);
         frame.setBounds(200, 400, 500, 300);
