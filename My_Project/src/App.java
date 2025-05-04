@@ -23,9 +23,9 @@ public class App extends JFrame {
         frame.setVisible(true);
 
         // Set the label size and position
-        label.setBounds(200, 100, 100, 50);
+        label.setBounds(180, 100, 150, 50);
         label.setForeground(Color.green);
-        label.setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 15));
+        label.setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 18));
 
         frame.add(label);
     }
